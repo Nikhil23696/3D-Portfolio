@@ -1,0 +1,40 @@
+.ticker-container {
+  width: 100%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  border-radius: 20px;
+  border: 2px solid #7a28ff;
+  box-shadow: 0 0 15px #7a28ff;
+  margin-top: 30px;
+  position: relative;
+}
+
+.ticker-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 25s linear infinite;
+}
+
+.contact-item {
+  display: inline-block;
+  margin: 0 40px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item:hover {
+  color: #ffdd57;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
