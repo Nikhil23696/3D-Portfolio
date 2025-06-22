@@ -1,6 +1,6 @@
 import React from 'react'
 import foodImage from '../images/food app.jpg'
-import jobPortal from '../images/jobPortal.jpg'
+import jobPortal from '../images/jobportal.jpg'
 import twitter from '../images/twitter.jpg'
 import movie from '../images/movie.jpg'
 import './Project.css'
